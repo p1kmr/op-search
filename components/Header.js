@@ -34,7 +34,7 @@ function Header({defaults}){
                 <button hidden type="submit" onClick={search}>Search</button>
             </form>
             <CogIcon className="ml-auto h-10 mt-2 p-1 hover:cursor-pointer"/>
-            <Avatar className=" h-10 mt-2 ml-2" url="https://avatars.githubusercontent.com/u/62892079?v=4"/>
+            <Avatar className=" h-10 mt-2 ml-2" url="https://avatars.githubusercontent.com/u/84802635?v=4" alt="Profile" />
             </div>
             <HeaderOptions/>
         </header>

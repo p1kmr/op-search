@@ -32,7 +32,7 @@ export default function Home() {
           <p className='link'> <a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox">Email</a></p>
           <p className='link'>Images</p>
           <ViewGridIcon className='h-10 w-10 p-2 rounded-full hover:bg-gray-100 cursor-pointer'/>
-          <Avatar url="https://avatars.githubusercontent.com/u/84802635?v=4"/>
+          <Avatar url="https://avatars.githubusercontent.com/u/84802635?v=4" alt="Profile"/>
         </div>
       </header>
       <form className='flex flex-col items-center mt-32 flex-grow w-4/5'>
