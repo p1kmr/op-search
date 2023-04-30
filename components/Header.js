@@ -33,8 +33,8 @@ function Header({defaults}){
                 <SearchIcon onClick={search}  className="h-6 text-blue-500 hidden sm:inline-flex hover:cursor-pointer"/>
                 <button hidden type="submit" onClick={search}>Search</button>
             </form>
-            <CogIcon className="ml-auto h-10 mt-2 p-1 hover:cursor-pointer"/>
-            <Avatar className=" h-10 mt-2 ml-2" url="https://avatars.githubusercontent.com/u/84802635?v=4" alt="Profile" />
+            <CogIcon className="ml-auto h-10 mt-2 p-1 hover:cursor-pointer"/>   
+            <Avatar className=" h-10 mt-2 ml-2" url="https://avatars.githubusercontent.com/u/84802635?v=4" alt="Profile" link={`https://portfolio-web-moqq.vercel.app/`} />
             </div>
             <HeaderOptions/>
         </header>
